@@ -1,0 +1,15 @@
+package cn.sx.xa.bqq.hqz.yjg.first;
+
+public interface Staff {
+	
+	void printMenu();
+	
+	void printBreakfastMenu();
+	
+	void printLunchMenu();
+	
+	void printVegetarianMenu();
+	
+	boolean isItemVegetarian(String name);
+	
+}
